@@ -79,7 +79,7 @@ The test execution is already parallel by default, but we can disable it or conf
 
 To disable parallelism, we need to modify the TestRunner file and set the value of `parallel` to `false`.
 
-![descrição da imagem](docs/imgs/desableParallelism.png)
+![descrição da imagem](docs/imgs/desibleParallelism.png)
 
 To configure the number of scenarios that will run in parallel, the `parallel` value in the TestRunner file should be 
 set to true, and we have two configurable properties: `featureThreadCount` and `scenarioThreadCount`.
